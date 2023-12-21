@@ -9,9 +9,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, LogInComponent, RegisterComponent],
+  declarations: [AppComponent, LogInComponent, RegisterComponent,HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
