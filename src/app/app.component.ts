@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-material-login-template';
+
+  showSidebar = false;
+
+  openSidebar() {
+    this.showSidebar = true;
+  }
+
+  closeSidebar() {
+    this.showSidebar = false;
+  }
 }
