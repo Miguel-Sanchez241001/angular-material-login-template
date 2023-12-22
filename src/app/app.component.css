@@ -1,0 +1,12 @@
+/* Fondo negro y color de texto blanco para todo el p-sidebar */
+:host ::ng-deep .ui-sidebar {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Alineación vertical de los elementos del p-sidebar */
+  :host ::ng-deep .ui-sidebar-content button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
